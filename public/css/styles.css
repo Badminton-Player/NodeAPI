@@ -1,0 +1,16 @@
+
+body {
+  background-color: whitesmoke;
+}
+
+.centered {
+    padding-top: 180px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  background-color: white;
+}

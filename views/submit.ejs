@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  
+    <h1 class="display-3" >Task list</h1>
+    <p class="secret-text">Add your tasks</p>
+
+    <form action="/submit" method="POST">
+
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="task" placeholder="What's your goal today?">
+      </div>
+      <button type="submit" class="btn btn-dark">Add</button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/footer') %>

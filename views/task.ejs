@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+
+  <div class="container">
+   
+    <h1 class="display-3">
+      welcome!
+    </h1>
+    
+   <% userWithTasks.forEach(function(user){   %>
+      <p class = "secret-text"><%=user.task %></p>   
+   <% })  %>
+     <hr>
+    
+    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+    <a class="btn btn-dark btn-lg" href="/submit" role="button">Add a task</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
